@@ -1,7 +1,7 @@
 const express = require('express');
 //variable router para utilizar la solicitud http (GET/POST/PUT/DELETE) en express
 const router = express.Router();
-const contenidoEducativo = require('./data/contenido-educativo');
+const contenidoEducativo = require('../data/contenido-educativo');
 
 //Obtener materias
 router.get('/api/materias', (req, res) => {
